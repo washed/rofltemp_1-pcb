@@ -1,4 +1,4 @@
-update=17.04.2017 10:01:42
+update=26.04.2017 19:56:42
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../../../../Users/washed/kicad-rofl-lib/library
+LibDir=../kicad-rofl-lib/library
 [eeschema/libraries]
 LibName1=power
 LibName2=device
