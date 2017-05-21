@@ -1,14 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:common_mode_choke
-LIBS:digital_transistors
-LIBS:gate_drivers
-LIBS:mems_oscillators
-LIBS:mosfets
-LIBS:optocouplers
-LIBS:power_switches
-LIBS:rtd_frontends
-LIBS:solderpads
-LIBS:switching_regs
 LIBS:74xgxx
 LIBS:74xx
 LIBS:ac-dc
@@ -104,15 +94,6 @@ LIBS:Xicor
 LIBS:xilinx
 LIBS:zetex
 LIBS:Zilog
-LIBS:Symbols_DCDC-ACDC-Converter_RevC_20Jul2012
-LIBS:Symbols_EN60617_13Mar2013
-LIBS:Symbols_EN60617-10_HF-Radio_DRAFT_12Sep2013
-LIBS:Symbols_ICs-Diskrete_RevD10
-LIBS:Symbols_ICs-Opto_RevB_16Sep2013
-LIBS:Symbols_Microcontroller_Philips-NXP_RevA_06Oct2013
-LIBS:Symbols_Socket-DIN41612_RevA
-LIBS:Symbols_Transformer-Diskrete_RevA
-LIBS:SymbolsSimilarEN60617+oldDIN617-RevE8
 LIBS:ROFLtemp_1-cache
 EELAYER 25 0
 EELAYER END
@@ -387,7 +368,7 @@ L R R4
 U 1 1 590270FC
 P 3050 3200
 F 0 "R4" V 3130 3200 50  0000 C CNN
-F 1 "100k" V 3050 3200 50  0000 C CNN
+F 1 "1k2" V 3050 3200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 2980 3200 50  0001 C CNN
 F 3 "" H 3050 3200 50  0001 C CNN
 	1    3050 3200
@@ -398,7 +379,7 @@ L R R5
 U 1 1 5902713E
 P 3250 3200
 F 0 "R5" V 3330 3200 50  0000 C CNN
-F 1 "100k" V 3250 3200 50  0000 C CNN
+F 1 "1k8" V 3250 3200 50  0000 C CNN
 F 2 "Resistors_SMD:R_0402" V 3180 3200 50  0001 C CNN
 F 3 "" H 3250 3200 50  0001 C CNN
 	1    3250 3200
